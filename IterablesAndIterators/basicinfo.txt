@@ -1,0 +1,5 @@
+
+Iterable:- Anything on which you can iterate upon. e.g. tuple, numpy array, list, dictionary, strings, set, files.
+           Anything that can be looped over or traversed is Iterable.
+           Anything that is Iterable needs to have a special method __iter__().
+           We know that double underscore methods are also called dunder methods or special methods  or magic methods.

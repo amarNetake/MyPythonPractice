@@ -1,0 +1,12 @@
+Decorators are a useful tool in Python for modifying the behavior of functions and methods. They are often used to add extra functionality to a function, such as: 
+1. Adding logging/debugging functionality
+2. Measuring the Execution time of a function, or providing a user-friendly interface to a complex function.
+3. Implementation of caching in python
+
+One common use case for decorators is to add debugging or logging functionality to a function. For example, you might use a decorator to log the input and output of a function, or to print a traceback if the function raises an exception.
+
+Decorators are also often used to implement caching in Python. For example, you might use a decorator to cache the results of a computationally expensive function, so that it doesn't have to be recalculated each time it is called.
+
+Decorators are also useful for implementing aspect-oriented programming (AOP) in Python. AOP is a programming paradigm that allows you to define cross-cutting concerns (i.e., concerns that span multiple modules or functions) in a single place, rather than having to duplicate the same code across multiple functions.
+
+Overall, decorators are a useful tool for modifying the behavior of functions and methods in a flexible and concise way.

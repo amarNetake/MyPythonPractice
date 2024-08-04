@@ -1,0 +1,16 @@
+
+Replacing print statements with log statements.
+Helpful in studying the flow of execution of program or debug.
+Helpful when code/project/application get's bigger and become difficult to debug or study the execution flow of program using simple print functions.
+Python comes with builtin 'logging' module so no need to install anything extra.
+
+logging levels: Helps us to specify exactly what we want to log by separating these into different categories.
+
+We have 5 standard logging levels:
+1) DEBUG : Detailed information, typically of interest only when diagnosing problems.
+2) INFO : Confirmation that things are working as expected.
+3) WARNING: An indication that something unexpected happened, or indicative of some problem in the near future(e.g., disk space low). The software is still working as expected.
+4) ERROR : Due to a more serious problem, the software has not been able to perform certain function.
+5) CRITICAL : A serious error, indicating that the program itself may be unable to continue running.
+
+Default level of logging is set to WARNING. What this means is it will capture everything that is a WARNING or above. So by default it will log WARNING, ERROR and CRITICAL which means by default it will ignore DEBUG and INFO log statements.

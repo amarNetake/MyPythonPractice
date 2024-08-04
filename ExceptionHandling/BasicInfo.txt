@@ -1,0 +1,4 @@
+Errors in python are of 2 types:
+1. Syntax errors: These are the problems in the program due to which program will stop the execution. It leads to the termination of the program.
+2. Exceptions: Exceptions are raised when the program is syntactically correct, but the code resulted in an error. This error does not stop the execution of the program, however it changes the normal flow of the program. In case of Exception program runs and outputs correctly until an error occurs and terminates where error occurs. So if we catch and handle the exception it continues the flow of program even after error/exception.
+e.g. divide by zero.
